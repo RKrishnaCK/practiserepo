@@ -61,6 +61,7 @@ public class Excel4 {
 
 				int colcount = row.getLastCellNum();
 
+				// The local references are added for the two parameters in the third commit.
 				String returnmsg;
 				Object validateObjResp;
 				for (j = 0; j < colcount; j++) {
