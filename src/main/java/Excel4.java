@@ -61,6 +61,8 @@ public class Excel4 {
 
 				int colcount = row.getLastCellNum();
 
+				String returnmsg;
+				Object validateObjResp;
 				for (j = 0; j < colcount; j++) {
 				
 					Cell cell = row.getCell(j);
